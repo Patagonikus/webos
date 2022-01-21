@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DRUM</title>
+</head>
+
+<body>
+
+    <div class="keys">
+        <div class="key" data-key="65"><kbd>A</kbd><span class="sound"></span>car</div>
+        <div class="key" data-key="83"><kbd>S</kbd><span class="sound"></span>foot</div>
+        <div class="key" data-key="68"><kbd>D</kbd><span class="sound"></span>correct</div>
+        <div class="key" data-key="70"><kbd>F</kbd><span class="sound"></span>ding</div>
+        <div class="key" data-key="71"><kbd>G</kbd><span class="sound"></span>right</div>
+        <div class="key" data-key="72"><kbd>H</kbd><span class="sound"></span>noise</div>
+        <div class="key" data-key="74"><kbd>J</kbd><span class="sound"></span>shot</div>
+        <div class="key" data-key="75"><kbd>K</kbd><span class="sound"></span>tada</div>
+        <div class="key" data-key="76"><kbd>L</kbd><span class="sound"></span>bells</div>
+    </div>
+
+    <audio src="sounds/car-lock-sound-effect.mp3" data-key="65"></audio>
+    <audio src="sounds/Cartoon-footsteps-sound-effect.mp3" data-key="83"></audio>
+    <audio src="sounds/Correct-sound-effect.mp3" data-key="68"></audio>
+    <audio src="sounds/Ding-sound-effect.mp3" data-key="70"></audio>
+    <audio src="sounds/Right-answer-ding-ding-sound-effect.mp3" data-key="71"></audio>
+    <audio src="sounds/short-computer-noise.mp3" data-key="72"></audio>
+    <audio src="sounds/shotgun-noise.mp3" data-key="74"></audio>
+    <audio src="sounds/Tada-sound.mp3" data-key="75"></audio>
+    <audio src="sounds/winning-bells.mp3" data-key="76"></audio>
+</body>
+<script src="./script.js"></script>
+</html>
