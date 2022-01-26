@@ -4,11 +4,14 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
+
 .keys{
     display: flex;
     justify-content: space-evenly;
-
+    align-items: center;
+    height: 100vh;
 }
 
 .key{
@@ -21,7 +24,7 @@ body{
     padding: 1rem;
     text-align: center;
     color:whitesmoke;
-    transition:all 1.07s;
+    /* transition:all 1.07s; */
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -31,8 +34,14 @@ body{
     box-shadow: 0 0 10px #ffc600;
 }
 
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#ffc600;
+}
+
 kbd{
     display: block;
     font-size: 40px;
-    color:#ffc600;
 }
